@@ -1,0 +1,42 @@
+# Ryha AI Platform - Code Ownership Rules
+# These teams/individuals are required reviewers for changes in specific areas
+
+# Global ownership - Leadership team owns everything by default
+* @ryha-ai/leadership
+
+# Agent Teams - Specific ownership for each agent team
+/src/agents/web_app_team/ @ryha-ai/web-app-team @ryha-ai/senior-engineers
+/src/agents/api_security_team/ @ryha-ai/api-security-team @ryha-ai/senior-engineers  
+/src/agents/static_analysis_team/ @ryha-ai/static-analysis-team @ryha-ai/senior-engineers
+/src/agents/infrastructure_team/ @ryha-ai/infrastructure-team @ryha-ai/senior-engineers
+/src/agents/reporting_team/ @ryha-ai/reporting-team @ryha-ai/senior-engineers
+
+# Platform Core - Senior engineers must review
+/src/orchestrator/ @ryha-ai/senior-engineers
+/src/api/ @ryha-ai/senior-engineers  
+/src/database/ @ryha-ai/senior-engineers
+/src/shared/ @ryha-ai/senior-engineers
+
+# Frontend - Frontend team ownership
+/src/frontend/ @ryha-ai/frontend-team @ryha-ai/senior-engineers
+
+# Infrastructure - DevOps team ownership
+/infrastructure/ @ryha-ai/infrastructure-team @ryha-ai/senior-engineers
+/scripts/deployment/ @ryha-ai/infrastructure-team
+/.github/workflows/ @ryha-ai/infrastructure-team @ryha-ai/senior-engineers
+
+# Testing - QA team gets notifications  
+/tests/ @ryha-ai/qa-team @ryha-ai/senior-engineers
+
+# Documentation - Leadership team owns docs
+/docs/ @ryha-ai/leadership
+README.md @ryha-ai/leadership
+*.md @ryha-ai/leadership
+
+# Critical Configuration Files - Leadership approval required
+.github/CODEOWNERS @ryha-ai/leadership
+.github/workflows/ @ryha-ai/leadership @ryha-ai/infrastructure-team
+requirements.txt @ryha-ai/senior-engineers
+package.json @ryha-ai/frontend-team @ryha-ai/senior-engineers
+docker-compose.yml @ryha-ai/infrastructure-team @ryha-ai/senior-engineers
+Dockerfile @ryha-ai/infrastructure-team @ryha-ai/senior-engineers
