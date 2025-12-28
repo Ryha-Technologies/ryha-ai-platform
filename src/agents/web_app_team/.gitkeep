@@ -1,0 +1,10 @@
+# Web Application Security Team - 8 Agents
+# This directory will contain:
+# 1. SQL Injection Detection Agent
+# 2. XSS Detection Agent  
+# 3. Authentication Bypass Agent
+# 4. Authorization Flaw Agent
+# 5. Session Management Agent
+# 6. CSRF Detection Agent
+# 7. Input Validation Agent
+# 8. File Upload Security Agent

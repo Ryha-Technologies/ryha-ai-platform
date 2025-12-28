@@ -1,0 +1,4 @@
+# API Layer
+# REST API endpoints for frontend communication
+# GraphQL API for complex queries
+# WebSocket connections for real-time updates
