@@ -1,8 +1,0 @@
-# Static Analysis Team - 6 Agents
-# This directory will contain:
-# 1. SAST Code Analysis Agent
-# 2. Dependency Vulnerability Agent
-# 3. Secret Detection Agent
-# 4. Code Quality Agent
-# 5. License Compliance Agent
-# 6. Configuration Security Agent

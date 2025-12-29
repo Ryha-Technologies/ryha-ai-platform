@@ -1,0 +1,49 @@
+# SQL Injection Hunter Agent Requirements
+
+# Core Dependencies
+aiohttp>=3.9.0
+asyncio-mqtt>=0.13.0
+sqlalchemy>=2.0.0
+psycopg2-binary>=2.9.0
+pymongo>=4.5.0
+redis>=5.0.0
+
+# AI/ML Dependencies
+tensorflow>=2.14.0
+torch>=2.1.0
+transformers>=4.35.0
+scikit-learn>=1.3.0
+numpy>=1.24.0
+pandas>=2.1.0
+
+# Security Testing
+requests>=2.31.0
+urllib3>=2.0.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+
+# Database Drivers
+mysql-connector-python>=8.2.0
+oracledb>=1.4.0
+cx-Oracle>=8.3.0
+pyodbc>=4.0.0
+
+# Encoding/Decoding
+base64
+hashlib
+json
+yaml>=6.0
+
+# Logging and Monitoring
+structlog>=23.2.0
+prometheus-client>=0.18.0
+
+# Testing
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+pytest-cov>=4.1.0
+
+# Development
+black>=23.9.0
+flake8>=6.1.0
+mypy>=1.6.0

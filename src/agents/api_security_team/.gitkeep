@@ -1,7 +1,0 @@
-# API Security Team - 5 Agents
-# This directory will contain:
-# 1. REST API Security Agent
-# 2. GraphQL Security Agent
-# 3. API Authentication Agent
-# 4. Rate Limiting Agent
-# 5. API Fuzzing Agent
